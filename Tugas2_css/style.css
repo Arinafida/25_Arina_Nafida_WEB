@@ -1,0 +1,28 @@
+h2{
+    color : orange;
+    font-family : Trebuchet MS;
+    text-align : center;
+}
+
+.kotak{
+    padding : 50px;
+    width : 100px;
+    color : #fff;
+    margin : 10px;
+    background : orange;
+}
+
+#kotak{
+    width : 400px;
+    color : #fff;
+    background : blue;
+    padding : 50px;
+}
+
+body {
+    background-image: url('img/tree2.png'), url('img/field2.jpg');
+    background-repeat: no-repeat, no-repeat; /* Keduanya diatur no-repeat */
+    background-position: center right, center; /* Posisi pohon di kiri, lapangan di tengah */
+    background-size: 450px auto, cover; /* Lapangan dibuat full satu layar (cover) */
+    color: white;
+}

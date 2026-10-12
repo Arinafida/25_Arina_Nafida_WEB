@@ -1,0 +1,45 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddd;
+    line-height: 1.65;
+    padding-bottom: 1000px;
+}
+
+.container-satu{
+    width: 900px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Memberikan jarak antar kolom */
+}
+
+/* Mengatur Sidebar Satu agar pindah ke posisi pertama (kiri) */
+.sidebar-satu {
+    flex: 1;
+    order: 1;
+    padding: 10px;
+    background-color: #e3f2fd;
+}
+
+/* Mengatur Kolom Utama di bagian tengah */
+.kolom-utama {
+    flex: 2.5;
+    order: 2;
+    padding: 10px;
+}
+
+/* Mengatur Sidebar Dua di sebelah kanan */
+.sidebar-dua {
+    flex: 1;
+    order: 3;
+    padding: 10px;
+    background-color: #fff3e0;
+}
